@@ -7,6 +7,6 @@ export default class Image {
     }
 
     render(){
-        return `<img src="${this.src}" alt="${this.text}" width="${this.width}}" height="${this.height}">`;
+        return `<img src="${this.src}" alt="${this.text}" width="${this.width}" height="${this.height}">`;
     }
 }
